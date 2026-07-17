@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "========================================"
+echo "Bug Hunting AI - Offline Edition"
+echo "========================================"
+
+echo "Installing dependencies..."
+pip3 install transformers torch gradio accelerate requests -q
+
+echo "Starting application..."
+python3 app.py
