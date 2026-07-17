@@ -32,3 +32,12 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+# Install Termux from F-Droid
+# Then run:
+
+pkg update
+pkg install python git
+pip install transformers torch gradio accelerate requests
+git clone https://github.com/Subhan162/bug-hunting-ai.git
+cd bug-hunting-ai
+python app.py
