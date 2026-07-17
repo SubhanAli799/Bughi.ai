@@ -1,0 +1,12 @@
+@echo off
+echo ========================================
+echo Bug Hunting AI - Offline Edition
+echo ========================================
+
+echo Installing dependencies...
+pip install transformers torch gradio accelerate requests -q
+
+echo Starting application...
+python app.py
+
+pause
