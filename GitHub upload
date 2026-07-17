@@ -1,0 +1,20 @@
+# 1. GitHub repo create karein
+# https://github.com/new
+
+# 2. Local folder banayein
+mkdir bug-hunting-ai
+cd bug-hunting-ai
+
+# 3. All files copy karein (upar diye gaye)
+
+# 4. Git initialize karein
+git init
+git add .
+git commit -m "Initial commit: Bug Hunting AI"
+
+# 5. Remote add karein
+git remote add origin https://github.com/Subhan162/bug-hunting-ai.git
+
+# 6. Push karein
+git branch -M main
+git push -u origin main
